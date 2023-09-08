@@ -1,5 +1,6 @@
 # Importing important libraries
 import pickle # for deserialization of saved model
+import uvicorn
 from fastapi import FastAPI
 from pydantic import BaseModel # Helps parse & validate payload content.
 
@@ -60,3 +61,6 @@ async def create_item(data: PatientData):
     
 
     return json_response
+
+if __name__ == "__main__":
+    uvicorn.run(app)

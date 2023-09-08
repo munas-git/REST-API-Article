@@ -1,6 +1,6 @@
 # Importing important libraries
 import pickle # for deserialization of saved model
-from flask import Flask, request, jsonify
+from flask import Flask, request, jsonify # <- importing flask and other necessary classes.
 import warnings
 warnings.filterwarnings("ignore")
 
@@ -16,6 +16,7 @@ with open(model_file_path, "rb") as file:
 @app.post("/diabetes-predictor/") # API endpoint for POST requests only.
 def predict_diagnosis(): # <-- Endpoint function
     """
+    This is just a docstring and doesn't affect how the function runs.
     This function extracts payload posted to endpoint, feeds the data to the model
     and returns the result payload in JSON format.
     """

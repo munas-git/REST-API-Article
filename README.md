@@ -1,6 +1,6 @@
 # REST API Implementation in Python for Model Deployment: Flask and FastAPI
 
-> This repo is for the article above, you can read more [here]()
+> This repo is for the article above, you can read more [here](https://medium.com/@einsteinmunachiso/rest-api-implementation-in-python-for-model-deployment-flask-and-fastapi-e80a6cedff86)
 
 ## How to run either of them
 To run either of the files:
@@ -13,4 +13,4 @@ To run either of the files:
 
 ## How to send requests:
 - For Flask server, check [here](https://youtu.be/G3BPCMY4TmM?si=KALYgh87VvA17ACH)
-- For FastAPI server, check [here](https://youtu.be/fkIR7-cFQ4g?si=FDX-gkykCXx1pPPd)
+- For FastAPI server, check [here](https://youtu.be/UxpkDN_Rcgk?si=DUq9ttps-VPeL_2P)
